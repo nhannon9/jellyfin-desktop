@@ -185,4 +185,4 @@ This file can also be printed at runtime when using the ``--licenses`` option.
 
 ## Known Issues
 
-If you build MPV from source, you currently need to disable pipewire or else the client will segfault.
+If you build MPV from source, you currently need to disable pipewire or else the client will segfault. 

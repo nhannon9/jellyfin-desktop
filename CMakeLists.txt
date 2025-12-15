@@ -82,5 +82,6 @@ enable_testing()
 add_subdirectory(tests)
 
 include(CPackConfiguration)
+# test build
 
 add_custom_target(install_app_bundle COMMAND ${CMAKE_COMMAND} -P cmake_install.cmake DEPENDS JellyfinDesktop)

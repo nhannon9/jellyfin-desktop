@@ -1,11 +1,8 @@
 name: build
 
 on:
+  workflow_dispatch:
   push:
-    branches:
-      - release
-      - prerelease
-      - test
 jobs:
   build-mac:
     runs-on: macos-13
